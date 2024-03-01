@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segundo desafio</title>
+</head>
+<body>
+    <form name="signup" autocomplete="off" target="_blank" onsubmit="alert('O formulário foi enviado');" method="post" action="https://meusite.com.br/signup">
+        <label>Nome: </label><input type="text" name="name"/><br>
+        <label>Idade: </label><input type="number" name="age" min="0" max="99" step="2"/><br>
+        <label>Senha: </label><input type="password" name="password"/><br>
+        <label>Range:</label><input type="range" min="0" max="99"/><br>
+        <label>Color:</label><input type="color"> <br>
+        <label>Date: </label><input type="date"><br>
+        <label>Checkbox</label><input type="checkbox"><br>
+        <label>Radio</label><input type="radio" name="aceita" value="aceito"><input type="radio" name="aceita" value="negado"><br>
+        <label>Hidden</label><input type="hidden"><br>
+        <label>File</label><input type="file" multiple><br>
+        <label>Search</label><input type="search"><br>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
