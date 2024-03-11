@@ -1,0 +1,93 @@
+    .menu{
+        display: flex;
+        flex-flow: column;
+        background-color: rgb(206, 206, 253);
+        height: 50rem;
+        width: 25rem;
+    }
+
+    body {
+        font-size: 1.2rem;
+    }
+
+
+
+
+
+    .wrapper{
+        display: flex;
+        background-color: rgb(221, 221, 255);
+    }
+
+    .main{
+        margin-left: 5rem;
+    }
+
+    .banner{
+        margin-left: 3rem;
+        width: 70rem;
+        height: 15rem;
+    }
+
+    .footer{    
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin-top:30rem;
+        padding-right: 3rem;
+        color: rgb(107, 107, 174);
+        text-align: center;
+
+    }
+
+    .content{
+        padding: 3rem;
+    }
+
+    .info-contato{
+        display: grid;
+        text-decoration: none;
+    }
+
+
+    .info-links{
+        display: grid;
+        text-decoration: none;
+    }
+
+    .info-sociais{
+        display: grid;
+        text-decoration: none;
+    }
+
+    .info-autorais{
+        display: block;
+        text-decoration: none;
+    }
+
+    li{
+        margin-top:1rem;
+        margin-bottom:1rem;
+    }
+
+    .menu-itens{
+        text-decoration: none;
+        color:black;
+
+    }
+
+    .footer-sobre{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin-top:40rem;
+        padding-right: 3rem;
+        color: rgb(107, 107, 174);
+        text-align: center;
+    }
+
+    .tabela-2{
+        padding-top:40rem;
+    }
+
+    .formulario{
+        margin-top:5rem;
+    }

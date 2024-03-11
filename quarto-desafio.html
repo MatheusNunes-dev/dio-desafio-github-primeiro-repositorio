@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com mídias</title>
+</head>
+<body>
+    <h1>Tags de Mídia</h1>
+
+    <h1>Tag img</h1>
+    <img title="Minha-foto" alt="" src="foto.png" width="150"/>
+    <p>
+        Fotos em jpg ficam com o fundo branco, imagens em png ficam sem fundo(transparência). Já imagens em svg são vetoriais, não perdem a resolução. Quando utilizar imagem svg utilizar a tag svg.
+    </p>
+    <p>
+        O atributo title na tag img é importante para quando o usuário passar o mouse sobre a imagem e aparecer uma mensagem
+    </p>
+    <p>
+        O atributo alt serve para que o leitor de tela leia aquela imagem para usuários que tenham algum tipo de deficiência visual.
+    </p>  
+
+    <br>  
+    <h1>Tag audio</h1>
+    <audio controls autoplay>
+        <source src="exemplo.mp3"/>
+        Seu navagador não tem suporte para este áudio
+    </audio>
+    <p>Atributo controls serve para colocar as opções de pause, tempo de áudio, volume...</p>
+    <p>Já o atributo autoplay serve para quando o usuario abrir o site começar a tocar o áudio </p>
+    <br>
+
+    <h1>Tag video</h1>
+    <video controls width="500">
+        <source src="COMO APRENDER A FALAR EM PÚBLICO.mp4"/>
+        <source src="exemplo.webm"/>
+        <track default src="legenda-pt-br.vtt" kind="captions" srclang="pt-br"/>
+        <track default src="legenda-en.vtt" kind="captions" srclang="en"/>
+        Seu navegador não suporta vídeo
+    </video>
+    <p>Caso o navegador não tenha suporte a vídeos mp4, ele tentará execurtar o webm (web movie)  e caso não suporte também ele executará a mensagem.</p>
+    <p>Para colocar legenda utiliza-se a tag track com um arquivo em vtt.</p>
+
+    <h1>Tag iframe</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/qZJlKuHpFKc?si=qK50mKIZfbWpcJGu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <br>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14414.78011345575!2d-49.2537338!3d-25.41501715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1709854611497!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+</head>
+<body>
+    <h1>Tables</h1>
+    <p>A tag tr (table row) serve para criar linhas, já a tag td (table data) serve para criar colunas</p>
+    <p>O atributo summary serve para que o leitor de tela leia aquela descrição da tabela, a mesma não é mostrada para o usuário de forma visual. </p>
+    <p>A tag th na table é o cabeçalho</p>
+    <p>A tag thead e a thead serve para organizar melhor o codigo da tabela -- thead -> cabeçalho -- tbody -> corpo da tabela -- tfoot -> rodapé da tabela</p>
+    <p>A tag caption é o nome da tabela, fica visual no site</p>
+    <table border="2" cellspacing="10" cellpadding="15" align="left" summary="Tabela de informações">
+        <caption>Tabela de dados</caption>
+        <thead>
+            <tr>
+                <th title="Nome completo"   >Nome</th>
+                <th>Idade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Matheus</td>
+                <td>17 anos</td>
+            </tr>
+            <tr>
+                <td>João</td>
+                <td>21 anos</td>
+            </tr>
+            <tr>
+                <td>Andrea</td>
+                <td>49 anos</td>
+            </tr>
+            <tr>
+                <td>Luiz</td>
+                <td>53 anos</td>
+            </tr>
+            <tr>
+                <td>Arthur</td>
+                <td>26 anos</td>
+            </tr>
+        </tbody>
+
+    </table>
+</body>
+</html>
+
+
+<style>
+    table tr:nth-child(even){
+        background-color: darkseagreen;
+    }
+    table tr:hover td{
+        background-color: gray;
+    }
+</style>
